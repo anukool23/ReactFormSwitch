@@ -1,15 +1,16 @@
 {
   "name": "reactformswitch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Schema-driven, headless, themeable React forms on top of React Hook Form + Zod.",
+  "license": "MIT",
   "type": "module",
   "homepage": "https://reactformswitch.anukool.me",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anukool23/ReactFormSwitch.git"
+    "url": "git+https://github.com/anukool23/reactformswitch.git"
   },
   "bugs": {
-    "url": "https://github.com/anukool23/ReactFormSwitch/issues"
+    "url": "https://github.com/anukool23/reactformswitch/issues"
   },
   "funding": "https://forge.anukool.me/reactformswitch",
   "main": "./dist/formswitch.cjs.js",
