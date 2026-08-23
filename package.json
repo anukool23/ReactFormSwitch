@@ -1,17 +1,17 @@
 {
-  "name": "formswitch",
-  "version": "0.1.0",
+  "name": "reactformswitch",
+  "version": "1.0.0",
   "description": "Schema-driven, headless, themeable React forms on top of React Hook Form + Zod.",
   "type": "module",
-  "homepage": "https://formswitch.anukool.me",
+  "homepage": "https://reactformswitch.anukool.me",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anukool23/FormSwitch.git"
+    "url": "git+https://github.com/anukool23/ReactFormSwitch.git"
   },
   "bugs": {
-    "url": "https://github.com/anukool23/FormSwitch/issues"
+    "url": "https://github.com/anukool23/ReactFormSwitch/issues"
   },
-  "funding": "https://forge.anukool.me/secretcheck",
+  "funding": "https://forge.anukool.me/reactformswitch",
   "main": "./dist/formswitch.cjs.js",
   "module": "./dist/formswitch.es.js",
   "types": "./dist/index.d.ts",
@@ -27,6 +27,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && tsc -p tsconfig.build.json",
+    "prepare": "vite build && tsc -p tsconfig.build.json",
     "test": "vitest run",
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"

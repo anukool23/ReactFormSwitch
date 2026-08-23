@@ -6,12 +6,12 @@ serialization layer on top of [React Hook Form](https://react-hook-form.com)
 RHF owns the hard state part.
 
 ```bash
-npm i formswitch react-hook-form zod
+npm i reactformswitch react-hook-form zod
 ```
 
 ```tsx
-import { FormSwitch } from 'formswitch'
-import 'formswitch/styles.css'
+import { FormSwitch } from 'reactformswitch'
+import 'reactformswitch/styles.css'
 import { z } from 'zod'
 
 <FormSwitch
@@ -50,7 +50,7 @@ schema={{
 Three plain registries — no plugin framework:
 
 ```tsx
-import { registerField, registerSerializer, defineTheme } from 'formswitch'
+import { registerField, registerSerializer, defineTheme } from 'reactformswitch'
 
 registerField('rating', ({ value, onChange }) => /* your headless component */)
 registerSerializer('csv', (values) => Object.values(values).join(','))
