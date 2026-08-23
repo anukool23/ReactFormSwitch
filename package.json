@@ -1,6 +1,6 @@
 {
   "name": "reactformswitch",
-  "version": "1.0.0",
+  "version": "1.0.1-beta.0",
   "description": "Schema-driven, headless, themeable React forms on top of React Hook Form + Zod.",
   "type": "module",
   "homepage": "https://reactformswitch.anukool.me",
@@ -23,7 +23,9 @@
     },
     "./styles.css": "./dist/style.css"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build && tsc -p tsconfig.build.json",
