@@ -1,0 +1,56 @@
+{
+  "name": "formswitch",
+  "version": "0.1.0",
+  "description": "Schema-driven, headless, themeable React forms on top of React Hook Form + Zod.",
+  "type": "module",
+  "homepage": "https://formswitch.anukool.me",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anukool23/FormSwitch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anukool23/FormSwitch/issues"
+  },
+  "funding": "https://forge.anukool.me/secretcheck",
+  "main": "./dist/formswitch.cjs.js",
+  "module": "./dist/formswitch.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/formswitch.es.js",
+      "require": "./dist/formswitch.cjs.js"
+    },
+    "./styles.css": "./dist/style.css"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18",
+    "react-hook-form": ">=7",
+    "zod": ">=3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.0",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "jsdom": "^24.0.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-hook-form": "^7.52.0",
+    "typescript": "^5.5.0",
+    "vite": "^5.3.0",
+    "vitest": "^2.0.0",
+    "zod": "^3.23.0"
+  }
+}

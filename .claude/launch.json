@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "playground",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 5173
+    },
+    {
+      "name": "forge-docs",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "/Users/anukoolpatel/Local/TechStacks/catalog-master", "run", "dev"],
+      "port": 3000
+    }
+  ]
+}
